@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0F0F10;
+    color: white;
+}
+
+.headings {
+    height: 7vh;
+    position: fixed;
+    width: 100%;
+
+}
+
+.headings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    margin-left: 30px;
+}
+
+.options {
+    width: 40vw;
+    margin-right: 30px;
+}
+
+.options ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options ul li {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.options ul li a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-info {
+    margin-top: 150px;
+    margin-left: 75px;
+}
+
+.left-info h4 {
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.left-info h1 {
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-info h1 span {
+    color: #A0A0A0;
+}
+
+.left-info h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.right {
+    width: 60%;
+}
+
+.right img {
+    width: 100%;
+    height: 730px;
+    background-color: #0F0F10;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.project-btn {
+    padding: 7px 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+
+.project-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.contact-btn {
+    padding: 7px 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.location img {
+    color: white;
+}
+
+.email img {
+    color: white;
+}
+
+.experience img {
+    color: white;
+}
+
+.both {
+    display: flex;
+}
+
+.left-about {
+    width: 40%;
+    height: 80vh;
+    margin-top: 130px;
+}
+
+.left-document{
+    margin-left: 40px;
+}
+
+.left-document span{
+    font-size: 1.4rem;
+}
+
+.left-document h1{
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 4px;
+    padding-bottom: 12px;
+}
+
+.right-about {
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-about img{
+    width: 25vw;
+    height: 75vh;
+    border-radius: 20px;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+.know-me{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.location{
+    width: 10%;
+    display: flex;
+}
+
+.loc-know{
+    padding: 0 5px;
+}
+
+.loc-image i{
+    font-size: 1.2rem;
+    margin-top: 9px;
+}
+
+.email{
+    width: 35%;
+    display: flex;
+}
+
+.email-know{
+    padding: 0 5px;
+}
+
+.email-image i{
+    font-size: 1.2rem;
+    margin-top: 9px;
+}
+
+.experience{
+    width: 13%;
+    display: flex;
+}
+
+.ex-know{
+    padding: 0 5px;
+}
+
+.exp-image i{
+    font-size: 1.2rem;
+    margin-top: 9px;
+}
