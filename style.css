@@ -141,15 +141,15 @@
     margin-top: 130px;
 }
 
-.left-document{
+.left-document {
     margin-left: 40px;
 }
 
-.left-document span{
+.left-document span {
     font-size: 1.4rem;
 }
 
-.left-document h1{
+.left-document h1 {
     font-size: 3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 4px;
@@ -164,7 +164,7 @@
     align-items: center;
 }
 
-.right-about img{
+.right-about img {
     width: 25vw;
     height: 75vh;
     border-radius: 20px;
@@ -172,69 +172,172 @@
     margin-left: 150px;
 }
 
-.know-me{
+.know-me {
     width: 80%;
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
 }
 
-.location{
+.location {
     width: 10%;
     display: flex;
 }
 
-.loc-know{
+.loc-know {
     padding: 0 5px;
 }
 
-.loc-image i{
+.loc-image i {
     font-size: 1.2rem;
     margin-top: 9px;
 }
 
-.email{
+.email {
     width: 35%;
     display: flex;
 }
 
-.email-know{
+.email-know {
     padding: 0 5px;
 }
 
-.email-image i{
+.email-image i {
     font-size: 1.2rem;
     margin-top: 9px;
 }
 
-.experience{
+.experience {
     width: 13%;
     display: flex;
 }
 
-.ex-know{
+.ex-know {
     padding: 0 5px;
 }
 
-.exp-image i{
+.exp-image i {
     font-size: 1.2rem;
     margin-top: 9px;
 }
 
-.html img{
+.technologies span{
+    font-size: 1.1rem;
+}
+
+.technologies{
+    padding: 20px 10px;
+}
+
+.technologies p{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.html img {
     width: 90px;
     height: 90px;
     background-color: transparent;
 }
 
-.css img{
+.css img {
     width: 90px;
     height: 90px;
     background-color: transparent;
 }
 
-.javascript img{
+.javascript img {
     width: 90px;
     height: 90px;
     background-color: transparent;
+}
+
+.git img {
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+}
+
+.github img {
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+}
+
+.react img {
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+}
+
+.html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 28%;
+    
+}
+
+.css{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 28%;
+}
+.javascript{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 28%;
+}
+.git{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 28%;
+}
+.github{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 28%;
+}
+.react{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 28%;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+    margin-left: 19%;
 }
