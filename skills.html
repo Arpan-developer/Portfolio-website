@@ -2,65 +2,240 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Skills | Arpan</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
-    <title>Personal Portfolio Website</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    <navbar>
-        <div class="headings">
-            <div class="name">
-                <h1>Arpan</h1>
-            </div>
-            <div class="options">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            Arpan
+        </a>
+
+        <nav>
+
+            <a href="index.html">Home</a>
+
+            <a href="about.html">About</a>
+
+            <a href="skills.html" class="active">
+                Skills
+            </a>
+
+            <a href="projects.html">
+                Projects
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+        <div class="theme-icon">
+            ◐
         </div>
-    </navbar>
-    <hr>
+
+    </header>
+
+
+    <!-- SKILLS -->
 
     <main>
-            <div class="technologies">
-                <span>My Skills</span>
-                <p>Technologies I Work With</p>
+
+        <section class="page-section">
+
+            <div class="section-heading">
+
+                <p>
+                    My Skills
+                </p>
+
+                <h1>
+                    Technologies I Work With
+                </h1>
+
             </div>
-            <div class="logos">
-                <div class="html">
-                    <img src="html.jpeg">
-                    <span>HTML</span>
+
+
+            <div class="skills-grid">
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon html">
+                        5
+                    </div>
+
+                    <h3>
+                        HTML
+                    </h3>
+
+                    <p>
+                        Structure & Semantics
+                    </p>
+
                 </div>
-                <div class="css">
-                    <img src="css.jpeg">
-                    <span>CSS</span>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon css">
+                        3
+                    </div>
+
+                    <h3>
+                        CSS
+                    </h3>
+
+                    <p>
+                        Styling & Responsive UI
+                    </p>
+
                 </div>
-                <div class="javascript">
-                    <img
-                        src="https://tse4.mm.bing.net/th/id/OIP.Yd7rHlV9yFOyFHlMp6rGxQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3.png">
-                    <span>JavaScript</span>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon javascript">
+                        JS
+                    </div>
+
+                    <h3>
+                        JavaScript
+                    </h3>
+
+                    <p>
+                        Web Interactivity
+                    </p>
+
                 </div>
-                <div class="git">
-                    <img src="git.jpeg">
-                    <span>Git</span>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon react">
+                        ⚛
+                    </div>
+
+                    <h3>
+                        React
+                    </h3>
+
+                    <p>
+                        UI Development
+                    </p>
+
                 </div>
-                <div class="github">
-                    <img src="github.jpeg">
-                    <span>Github</span>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon git">
+                        ◆
+                    </div>
+
+                    <h3>
+                        Git
+                    </h3>
+
+                    <p>
+                        Version Control
+                    </p>
+
                 </div>
-                <div class="react">
-                    <img src="react.jpeg">
-                    <span>React</span>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon github">
+                        ◉
+                    </div>
+
+                    <h3>
+                        GitHub
+                    </h3>
+
+                    <p>
+                        Code Hosting
+                    </p>
+
                 </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon vscode">
+                        &lt;/&gt;
+                    </div>
+
+                    <h3>
+                        VS Code
+                    </h3>
+
+                    <p>
+                        Development
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon tailwind">
+                        ≈
+                    </div>
+
+                    <h3>
+                        Tailwind CSS
+                    </h3>
+
+                    <p>
+                        Modern Styling
+                    </p>
+
+                </div>
+
             </div>
+
+
+            <!-- OTHER TOOLS -->
+
+            <div class="other-tools">
+
+                <h3>
+                    Other Tools
+                </h3>
+
+                <div class="tool-list">
+
+                    <span>Figma</span>
+                    <span>Firebase</span>
+                    <span>Netlify</span>
+                    <span>Vercel</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
+
 </body>
 
 </html>

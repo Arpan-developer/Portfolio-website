@@ -4,49 +4,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Arpan | Frontend Developer</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
-    <title>Personal Portfolio Website</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <navbar>
-        <div class="headings">
-            <div class="name">
-                <h1>Arpan</h1>
-            </div>
-            <div class="options">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            Arpan
+        </a>
+
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="theme-icon">
+            ◐
         </div>
-    </navbar>
-    <hr>
+
+    </header>
+
+
+    <!-- HOME -->
 
     <main>
-        <div class="container">
-            <div class="left">
-                <div class="left-info">
-                    <h4>Hi, I'm</h4>
-                    <h1>Arpan <span>Dutta</span></h1>
-                    <h2>Frontend Developer</h2>
-                    <p>I build modern and responsive web experiences with clean code and creative design.I turn ideas into clean and user-friendly web experiences while continuously learning and improving skills.</p>
-                    <div class="buttons">
-                        <button class="project-btn">View My Projects</button>
-                        <button class="contact-btn">Contact Me</button>
-                    </div>
+
+        <section class="home">
+
+            <div class="home-content">
+
+                <p class="intro">
+                    Hi, I'm
+                </p>
+
+                <h1>
+                    Arpan <span>Dutta</span>
+                </h1>
+
+                <h2>
+                    Frontend Developer
+                </h2>
+
+                <p class="home-description">
+                    I build modern and responsive web experiences
+                    with clean code and creative design.
+                    Currently learning and growing as a developer.
+                </p>
+
+
+                <div class="home-buttons">
+
+                    <a href="projects.html" class="btn primary-btn">
+                        View My Projects
+                    </a>
+
+                    <a href="contact.html" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+
                 </div>
+
+
+                <div class="social-links">
+
+                    <a href="#">◉</a>
+                    <a href="#">in</a>
+                    <a href="#">𝕏</a>
+
+                </div>
+
             </div>
-            <div class="right">
-                <img src="https://miro.medium.com/v2/resize:fit:1160/1*RlzABACNl97xkLmf-9G0wQ.png">
+
+
+            <!-- LAPTOP -->
+
+            <div class="home-visual">
+
+                <div class="glow"></div>
+
+                <div class="laptop">
+
+                    <div class="laptop-screen">
+
+                        <div class="code-line"></div>
+                        <div class="code-line short"></div>
+                        <div class="code-line medium"></div>
+                        <div class="code-line"></div>
+                        <div class="code-line short"></div>
+                        <div class="code-line medium"></div>
+
+                    </div>
+
+                    <div class="laptop-base"></div>
+
+                </div>
+
             </div>
-        </div>
+
+
+            <div class="scroll-down">
+                ↓
+                <small>Scroll Down</small>
+            </div>
+
+        </section>
+
     </main>
+
 </body>
 
 </html>
