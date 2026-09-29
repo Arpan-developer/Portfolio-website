@@ -221,15 +221,15 @@
     margin-top: 9px;
 }
 
-.technologies span{
+.technologies span {
     font-size: 1.1rem;
 }
 
-.technologies{
+.technologies {
     padding: 20px 10px;
 }
 
-.technologies p{
+.technologies p {
     font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -270,7 +270,7 @@
     background-color: transparent;
 }
 
-.html{
+.html {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -279,10 +279,10 @@
     border: 1px solid white;
     border-radius: 10px;
     width: 28%;
-    
+
 }
 
-.css{
+.css {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -292,7 +292,8 @@
     border-radius: 10px;
     width: 28%;
 }
-.javascript{
+
+.javascript {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -302,7 +303,8 @@
     border-radius: 10px;
     width: 28%;
 }
-.git{
+
+.git {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -312,8 +314,9 @@
     border-radius: 10px;
     width: 28%;
 }
-.github{
-   display: flex;
+
+.github {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -322,8 +325,9 @@
     border-radius: 10px;
     width: 28%;
 }
-.react{
-   display: flex;
+
+.react {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -337,52 +341,138 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
-    margin-top: 50px ;
+    margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 19%;
 }
 
-.project-heading p{
+.project-heading{
+    padding: 20px;
+}
+
+.project-heading p {
     font-size: 2.7rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-bottom: 20px;
 }
 
-.project-heading span{
+.project-heading span {
     font-size: 1.5rem;
 }
 
-.quiz-app{
+
+/* QUIZ section */
+
+
+
+.quiz-app {
     /* background-color: aqua; */
     height: 60vh;
     border: 1px solid white;
+    border-radius: 20px;
+    padding: 0 10px;
 }
 
-.quiz-app h2{
+.quiz-app h2 {
     padding: 5px 0;
 }
 
-.quiz-app img{
-    width: 300px;
+.quiz-app img {
+    margin-left: 5%;
+    width: 350px;
     height: 300px;
     border-radius: 25px;
 }
 
-.quiz-app p{
+.quiz-app p {
     padding-bottom: 9px;
 }
 
-.logic{
+.logic {
     padding: 10px 5px;
 }
 
-.logic button{
+.logic button {
     padding: 5px 5px;
     border-radius: 10px;
 }
 
-.quiz-app a{
+.quiz-app a {
     text-decoration: none;
     color: rgb(109, 0, 156);
     font-size: 1.1rem;
+}
+
+
+/* MOVIE section */
+
+
+.movie-watchlist {
+    /* background-color: aqua; */
+    height: 60vh;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+.movie-watchlist img {
+    margin-left: 10%;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+.movie-watchlist a {
+    text-decoration: none;
+    color: rgb(109, 0, 156);
+    font-size: 1.1rem;
+}
+
+.movie-watchlist p {
+    padding-bottom: 9px;
+}
+
+
+/* EXPENSE TRACKER */
+
+
+
+.expense-tracker {
+    /* background-color: aqua; */
+    height: 60vh;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+
+.expense-tracker a {
+    text-decoration: none;
+    color: rgb(109, 0, 156);
+    font-size: 1.1rem;
+}
+
+.expense-tracker p {
+    padding-bottom: 9px;
+}
+
+.expense-tracker {
+    /* background-color: aqua; */
+    height: 60vh;
+    border: 1px solid white;
+    padding: 0 10px;
+}
+
+.expense-tracker img {
+    margin-left: 6%;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.projects {
+    display: flex;
+    padding: 0 15px;
+    justify-content: space-between;
 }
